@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Princess Day, Khushi ♡</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap');
+:root{--pink:#ff6f9f;--deep:#b83268;--cream:#fff8f7;--ink:#583447}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--cream);color:var(--ink);font-family:'DM Sans',sans-serif;overflow-x:hidden}
+.hero{min-height:100svh;display:grid;place-items:center;text-align:center;padding:36px 20px;position:relative;overflow:hidden;background:radial-gradient(circle at 15% 20%,#ffe0ea 0 9%,transparent 30%),radial-gradient(circle at 85% 75%,#ffe7d9 0 10%,transparent 32%),linear-gradient(135deg,#fff8f7,#ffeef3)}
+.hero:before,.hero:after{content:"";position:absolute;width:300px;height:300px;border:1px solid #ffc5d6;border-radius:50%;opacity:.55}
+.hero:before{top:-180px;left:-100px}.hero:after{bottom:-190px;right:-100px}
+.card{position:relative;z-index:1;max-width:720px;padding:clamp(28px,6vw,62px);border:1px solid #fff;background:#ffffffb8;backdrop-filter:blur(12px);border-radius:34px;box-shadow:0 25px 80px #d66b8b20}
+.eyebrow{letter-spacing:.22em;text-transform:uppercase;color:#d45d88;font-size:.72rem;font-weight:700}
+h1,h2{font-family:'Playfair Display',serif}
+h1{font-size:clamp(3.4rem,10vw,6.6rem);line-height:.98;margin:18px 0;color:#b83268}
+h1 span{display:block;font-size:.47em;color:#e46d99;font-style:italic;margin-top:12px}
+.lead{font-size:1.08rem;line-height:1.8;max-width:510px;margin:22px auto;color:#795365}
+button{border:0;border-radius:999px;padding:15px 25px;font:700 .95rem 'DM Sans';cursor:pointer;transition:.2s}
+button:hover{transform:translateY(-3px);filter:brightness(1.04)}
+.primary{background:linear-gradient(135deg,#ff7ca7,#e64f86);color:white;box-shadow:0 10px 25px #e85b8c38}
+.heart{font-size:1.2rem;margin:0 5px;animation:pulse 1.5s infinite;display:inline-block}
+@keyframes pulse{50%{transform:scale(1.25)}}
+.float{position:absolute;color:#f18aaa;opacity:.45;animation:drift 8s ease-in-out infinite}
+.float:nth-child(1){top:12%;left:12%;font-size:30px}.float:nth-child(2){top:22%;right:13%;font-size:23px;animation-delay:1s}.float:nth-child(3){bottom:14%;left:17%;font-size:25px;animation-delay:2s}.float:nth-child(4){bottom:20%;right:12%;font-size:34px;animation-delay:3s}
+@keyframes drift{50%{transform:translateY(-22px) rotate(12deg)}}
+section{padding:90px 20px}
+.wrap{max-width:920px;margin:auto}
+.center{text-align:center}
+h2{font-size:clamp(2.2rem,6vw,3.4rem);color:#b83268;margin:0 0 16px}
+.sub{color:#8b6878;line-height:1.8}
+.note{margin:38px auto 0;max-width:720px;background:white;border:1px solid #ffe0e9;border-radius:26px;padding:clamp(25px,5vw,48px);box-shadow:0 15px 50px #d66b8b12;line-height:2;font-size:1.05rem}
+.note .signature{font-family:'Playfair Display';font-style:italic;font-size:1.5rem;color:#d34f82;margin-top:22px}
+.reasons{background:#fff0f4}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:38px}
+.reason{background:#fff;border:1px solid #ffe1ea;border-radius:22px;padding:25px 18px;text-align:center;box-shadow:0 12px 30px #d66b8b0c}
+.reason .icon{font-size:2rem}.reason h3{font-family:'Playfair Display';color:#bd426f;margin:12px 0 7px}.reason p{font-size:.92rem;line-height:1.65;color:#806474;margin:0}
+.final{background:linear-gradient(135deg,#fff7f8,#ffe6ef);text-align:center}
+.final .big{font-size:3rem;margin:20px}
+footer{text-align:center;padding:25px;color:#a27b8d;font-size:.85rem}
+#surprise{display:none;margin:22px auto 0;max-width:560px;padding:24px;background:#fff;border-radius:22px;border:1px dashed #f3a3bd;line-height:1.8;color:#795365}
+#surprise.show{display:block;animation:pop .45s ease}
+@keyframes pop{from{opacity:0;transform:scale(.94)}to{opacity:1;transform:scale(1)}}
+@media(max-width:650px){.grid{grid-template-columns:1fr}.card{border-radius:25px}.lead{font-size:1rem}section{padding:70px 18px}}
+</style>
+</head>
+<body>
+<header class="hero">
+  <span class="float">♡</span><span class="float">✧</span><span class="float">♥</span><span class="float">✿</span>
+  <main class="card">
+    <div class="eyebrow">A little page made with lots of love</div>
+    <h1>Happy Princess Day<span>to my Khushi</span></h1>
+    <p class="lead">Today is all about celebrating the sweetest princess. And honestly, no crown could ever shine as beautifully as your smile. ♡</p>
+    <button class="primary" onclick="document.querySelector('#letter').scrollIntoView({behavior:'smooth'})">Open your little surprise <span class="heart">♥</span></button>
+  </main>
+</header>
+
+<section id="letter">
+  <div class="wrap center">
+    <div class="eyebrow">A note for you</div>
+    <h2>Dear Khushi,</h2>
+    <p class="sub">A few words for someone who deserves a whole kingdom.</p>
+    <div class="note">
+      I hope you never forget how special you are. You deserve days full of laughter, dreams that come true, endless little reasons to smile, and people who make you feel loved every single day.
+      <br><br>
+      Keep being your lovely, funny, wonderful self. Never dim your sparkle for anyone. If the world ever feels a little too heavy, I hope you remember that you are precious, appreciated, and capable of beautiful things.
+      <br><br>
+      So today, princess, let yourself feel celebrated. You deserve all the happiness this world has to offer.
+      <div class="signature">With lots of love, ♡</div>
+    </div>
+  </div>
+</section>
+
+<section class="reasons">
+  <div class="wrap center">
+    <div class="eyebrow">Your royal qualities</div>
+    <h2>Why you're one of a kind</h2>
+    <p class="sub">A tiny list, because one page isn't enough.</p>
+    <div class="grid">
+      <article class="reason"><div class="icon">🌷</div><h3>Your kindness</h3><p>You have a way of making ordinary moments feel a little more special.</p></article>
+      <article class="reason"><div class="icon">✨</div><h3>Your sparkle</h3><p>There's something wonderfully you about the way you see the world.</p></article>
+      <article class="reason"><div class="icon">🦋</div><h3>Your dreams</h3><p>May you go everywhere you've dreamed of and become everything you wish to be.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="final">
+  <div class="wrap">
+    <div class="eyebrow">One last thing</div>
+    <h2>Keep smiling, princess.</h2>
+    <p class="sub">The world is lucky to have you in it.</p>
+    <div class="big">👑💗</div>
+    <button class="primary" id="surpriseBtn">One more little surprise</button>
+    <div id="surprise">Khushi, here's your reminder: you are loved, you matter, and you deserve the softest, happiest kind of life. May your heart always find reasons to smile. Happy Princess Day! 💕</div>
+  </div>
+</section>
+<footer>Made especially for Khushi <span class="heart">♥</span></footer>
+<script>
+document.getElementById('surpriseBtn').addEventListener('click',()=>{
+ const box=document.getElementById('surprise');
+ box.classList.toggle('show');
+ document.getElementById('surpriseBtn').textContent=box.classList.contains('show')?'Aww, read it again ♡':'One more little surprise';
+});
+function sprinkle(){
+ const el=document.createElement('span');
+ el.textContent=['♡','♥','✧','🌸'][Math.floor(Math.random()*4)];
+ el.style.cssText=`position:fixed;z-index:5;left:${Math.random()*100}vw;top:-30px;font-size:${14+Math.random()*18}px;color:#ed78a0;pointer-events:none;animation:fall ${4+Math.random()*3}s linear forwards`;
+ document.body.appendChild(el);setTimeout(()=>el.remove(),7500);
+}
+const style=document.createElement('style');style.textContent='@keyframes fall{to{transform:translateY(110vh) rotate(360deg);opacity:0}}';document.head.appendChild(style);
+setInterval(sprinkle,950);
+</script>
+</body>
+</html>
